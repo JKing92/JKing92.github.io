@@ -1,0 +1,79 @@
+/*
+Prussian Blue - #0B3C5D
+Sky Blue - #328CC1
+Gold Leaf - #D9B310
+Ivory Black - #1D2731
+*/
+
+.main {
+    background-color: #328CC1;
+}
+
+.title {
+    background-image: url(../homework/sunTitle.jpg);
+    text-align: center;
+    padding: 50px;
+}
+
+.today {
+    align-self: center;
+    background-color: #0B3C5D;
+    max-width: 500px;
+    min-width: 125px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../homework/sunny.jpg)
+}
+
+p {
+    font-size: 28px;
+}
+
+h1 {
+    color: #D9B310;
+    font-size: 38px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1D2731;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #D9B310;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+li a:hover {
+    background-color: #0B3C5D;
+}
+
+#floatLeft {
+    float: left;
+}
+
+#floatRight {
+    float: right;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+}
