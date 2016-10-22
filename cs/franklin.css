@@ -24,7 +24,37 @@ Ivory Black - #1D2731
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../images/sunDay.jpg)
+    background-image: url(../images/sunDay.jpg);
+}
+
+.navLarge {
+    display: none;
+}
+
+.navSmall {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #1D2731;
+}
+
+li a {
+    display: block;
+    color: #D9B310;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+li a:hover {
+    background-color: #0B3C5D;
 }
 
 p {
@@ -36,29 +66,8 @@ h1 {
     font-size: 38px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1D2731;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #D9B310;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 28px;
-}
-
-li a:hover {
-    background-color: #0B3C5D;
+table {
+    display: none;
 }
 
 #floatLeft {
@@ -69,12 +78,116 @@ li a:hover {
     float: right;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 28px;
+#smallImage {
+    display: block;
+}
+
+#mediumImage {
+    display: none;
+}
+
+#largeImage {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+    }
+    table {
+        display: table;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1D2731;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #D9B310;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    li a:hover {
+        background-color: #0B3C5D;
+    }
+    .navSmall {
+        display: none;
+    }
+    .navLarge {
+        display: block;
+    }
+    #smallImage {
+        display: none;
+    }
+    #mediumImage {
+        display: block;
+    }
+    #largeImage {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+    }
+    table {
+        display: table;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1D2731;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #D9B310;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    li a:hover {
+        background-color: #0B3C5D;
+    }
+    .navSmall {
+        display: none;
+    }
+    .navLarge {
+        display: block;
+    }
+    #smallImage {
+        display: none;
+    }
+    #mediumImage {
+        display: none;
+    }
+    #largeImage {
+        display: block;
+    }
 }
