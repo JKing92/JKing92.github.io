@@ -1,0 +1,123 @@
+/*
+Prussian Blue - #0B3C5D
+Sky Blue - #328CC1
+Gold Leaf - #D9B310
+Ivory Black - #1D2731
+*/
+
+.header {
+    text-align: center;
+    padding: 1em;
+    background-image: url(../images/sunTitle.jpg)
+}
+
+body {
+    background-color: #328CC1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0B3C5D;
+    justify-content: space-between;
+    border: 2px solid #1D2731;
+}
+
+.item {
+    display: inline-flex;
+    padding: 1em;
+    background-color: #0B3C5D;
+    align-items: flex-start;
+    color: #d9B310;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid #1D2731;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sun {
+    background-image: url(../images/sunDay.jpg);
+    color: #1D2731;
+}
+
+.thunder {
+    background-image: url(../images/thunderstorm3.jpg);
+    color: #1D2731;
+}
+
+#today {
+    padding: 5px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    min-width: 20em;
+    max-width: 40em;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todayLeft {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.todayRight {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.mediumPic {
+    display: block;
+}
+
+.smallPic {
+    display: none;
+}
+
+.largePic {
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    table {
+        display: none;
+    }
+    .mediumPic {
+        display: none;
+    }
+    .largePic {
+        display: none;
+    }
+    .smallPic {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .SmallPic {
+        display: none;
+    }
+    .mediumPic {
+        display: none;
+    }
+    .largePic {
+        display: block;
+    }
+}

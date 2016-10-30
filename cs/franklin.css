@@ -27,6 +27,30 @@ Ivory Black - #1D2731
     background-image: url(../images/sunDay.jpg);
 }
 
+.todayThunder {
+    align-self: center;
+    background-color: #0B3C5D;
+    max-width: 500px;
+    min-width: 125px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/thunderstorm.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #0B3C5D;
+    padding: 20px;
+    color: #D9B310;
+}
+
+.items {
+    font-size: 16px;
+}
+
 .navLarge {
     display: none;
 }
@@ -96,12 +120,15 @@ table {
     td {
         border: 1px solid black;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
         font-size: 28px;
+        flex-direction: row;
     }
     table {
         display: table;
+        align-items: center;
+        flex-wrap: wrap;
     }
     ul {
         list-style-type: none;
@@ -147,12 +174,14 @@ table {
     td {
         border: 1px solid black;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
         font-size: 28px;
     }
     table {
         display: table;
+        align-items: center;
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: flex-start
     }
     ul {
         list-style-type: none;
